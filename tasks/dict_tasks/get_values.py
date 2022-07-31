@@ -5,9 +5,13 @@
 """
 
 
+from optparse import Values
+
+
 def get_values(collection: dict):
+
     # TODO вставить код сюда
-    result = None
+    result = dict.values(collection)
     return result
 
 

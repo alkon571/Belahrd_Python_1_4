@@ -29,6 +29,7 @@ users = {
 
 def del_user(users_dict: dict, login: Any) -> dict:
     # TODO вставить код сюда
+    login = dict.popitem(users_dict)
     return login
 
 
