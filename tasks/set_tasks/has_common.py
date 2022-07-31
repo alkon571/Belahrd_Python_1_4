@@ -8,7 +8,11 @@
 
 def has_common(set_1: set, set_2: set) -> bool:
     # TODO вставить код сюда
-    result = None
+    result = False
+    for x in set_1:
+         for y in set_2:
+             if x == y:
+                 result = True
     return result
 
 
