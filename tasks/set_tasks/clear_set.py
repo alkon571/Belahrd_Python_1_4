@@ -5,7 +5,7 @@
 """
 
 
-from turtle import clear
+# from turtle import clear
 
 
 def clear_set(collection: set) -> set:

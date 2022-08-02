@@ -6,7 +6,7 @@
 """
 
 
-from unittest import result
+# from unittest import result
 
 
 def diff_update(set_1: set, set_2: set) -> set:

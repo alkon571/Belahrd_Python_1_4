@@ -7,7 +7,7 @@
 
 def unite_dict(dict_1: dict, dict_2: dict) -> dict:
     # TODO dict_1 обновить элементами dict_2
-    dict_1|=dict_2
+    dict_1 |= dict_2
     return dict_1
 
 

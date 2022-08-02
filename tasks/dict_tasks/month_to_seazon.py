@@ -36,7 +36,7 @@ def month_to_season(month: int) -> str:
         9: 'Осень',
         10: 'Осень',
         11: 'Осень'
-        }
+    }
     season = seasons.get(month)
     return season
 
